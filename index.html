@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Bac Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>🎓 Smart Bac Calculator</h1>
+
+  <div id="subjects"></div>
+
+  <div class="controls">
+    <button onclick="addSubject()">➕ إضافة مادة</button>
+    <button onclick="calculate()">📊 حساب المعدل</button>
+    <button onclick="saveData()">💾 حفظ</button>
+    <button onclick="loadData()">📂 تحميل</button>
+  </div>
+
+  <h2 id="result">المعدل: --</h2>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
